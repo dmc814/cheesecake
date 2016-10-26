@@ -57,7 +57,13 @@ body {
     }
     
                
-    
+.gallery h4{
+    background: 069;
+    color:#fff;
+    font-weight:bolder;
+    font-family: arial;
+    text-align:center;
+    }
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
