@@ -1,4 +1,4 @@
-/*
+9/*
  * Start Bootstrap - Logo Nav (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -36,7 +36,27 @@ body {
         background:#069
             color:#000;
     }
-    .navbar-fixed-top .navbar-brand {
+    
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%
+        margin: auto;
+        color:#000;
+    }
+    hr{
+        height:2px
+        background-color:#069;
+    }
+    .gallery{
+        float:left;
+        margin:10px;
+        padding:5px;
+        width:305px;
+        height:250px;
+        border: 2px solid #069;
+    }
+    
+                .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
 }
