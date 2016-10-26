@@ -15,6 +15,14 @@ body {
 .navbar-inverse{
    background-color:#069;
  }
+.btn{
+    background:069;
+    color:#fff;
+}
+.nav-inverse .navbar-nav > li >a:active{
+    background:#f00;
+    color:#fff;
+}
   .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
 }
@@ -23,7 +31,11 @@ body {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
-
+    .jumbotron{
+        padding:0;
+        background:#069
+            color:#000;
+    }
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
